@@ -35,7 +35,7 @@ export default function Portfolio() {
                         {/* Text Section */}
                         <div className="space-y-8 text-center lg:text-left">
                             <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-5xl">
-                                Hi! I'm Talha &quot;TJ&quot; Muhammad
+                                Hi! I&apos;m Talha &quot;TJ&quot; Muhammad
                             </h1>
                             <TypewriterText />
                             <div className="flex flex-col gap-2 sm:flex-row justify-center lg:justify-start mt-4">
