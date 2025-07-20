@@ -14,11 +14,9 @@ export default function Header() {
     <>
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="flex h-14 items-center justify-between px-4 md:px-8">
-          {/* Left side: Logo + Desktop Nav */}
           <div className="flex items-center space-x-6">
-            {/* Logo always visible */}
             <Link href="#" className="font-bold text-lg whitespace-nowrap">
-              Talha "TJ" Muhammad
+              Talha &quot;TJ&quot; Muhammad
             </Link>
 
             {/* Desktop Nav - hidden on mobile */}
@@ -72,7 +70,7 @@ export default function Header() {
         </div>
       </header>
 
-      {/* Animated Mobile Menu (below header, in flow) */}
+      {/* Animated Mobile Menu */}
       <AnimatePresence>
         {isOpen && (
           <motion.div

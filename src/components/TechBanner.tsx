@@ -70,7 +70,7 @@ export default function TechBanner() {
             <div className="marquee">
                 <div className="marquee__inner">
                     <TechItems />
-                    <TechItems /> {/* Duplicate for seamless loop */}
+                    <TechItems />
                 </div>
             </div>
 

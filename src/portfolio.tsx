@@ -35,7 +35,7 @@ export default function Portfolio() {
                         {/* Text Section */}
                         <div className="space-y-8 text-center lg:text-left">
                             <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-5xl">
-                                Hi! I'm Talha "TJ" Muhammad
+                                Hi! I'm Talha &quot;TJ&quot; Muhammad
                             </h1>
                             <TypewriterText />
                             <div className="flex flex-col gap-2 sm:flex-row justify-center lg:justify-start mt-4">
@@ -70,7 +70,7 @@ export default function Portfolio() {
                         </div>
                     </div>
 
-                    {/* TechBanner now part of the Hero Section */}
+                    {/* TechBanner */}
                     <div className="mt-8">
                         <TechBanner />
                     </div>
@@ -131,7 +131,7 @@ export default function Portfolio() {
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-                                        <li>Research assistant at the School of Digital Media's Software Engineering Program.</li>
+                                        <li>Research assistant at the School of Digital Media&apos;s Software Engineering Program.</li>
                                         <li>Tested and researched AI novel automation assistant, Sudo Write, generating a story of 12 chapters using the tool</li>
                                         <li>Built a Python app to test machine learning prompting principles and compiled an evaluation report with 34 detailed examples</li>
                                     </ul>
@@ -258,7 +258,7 @@ export default function Portfolio() {
                                 </div>
                                 <CardHeader className="flex-1">
                                     <CardTitle>Ultimate Meme Generator</CardTitle>
-                                    <CardDescription>Meme Generator created with React, integrating imgflip API. Inspired by imgflip's Meme Generator: https://imgflip.com/memegenerator.</CardDescription>
+                                    <CardDescription>Meme Generator created with React, integrating imgflip API. Inspired by imgflip&apos;s Meme Generator: https://imgflip.com/memegenerator.</CardDescription>
                                 </CardHeader>
                                 <CardContent className="pt-0">
                                     <div className="flex flex-wrap gap-2 mb-4">
@@ -342,14 +342,14 @@ export default function Portfolio() {
                                             </CardHeader>
                                             <CardContent>
                                                 <p className="text-sm text-muted-foreground">
-                                                    Lead volunteer at Camp Newaygo events including Halloweekend, Santa and S'mores, and Enchanted Forest throughout the year
+                                                    Lead volunteer at Camp Newaygo events including Halloweekend, Santa and S&apos;mores, and Enchanted Forest throughout the year
                                                 </p>
                                             </CardContent>
                                         </Card>
                                         <Card>
                                             <CardHeader className="pb-3">
                                                 <CardTitle className="text-lg">Tutor</CardTitle>
-                                                <CardDescription>SOS Children's Village • 2018</CardDescription>
+                                                <CardDescription>SOS Children&apos;s Village • 2018</CardDescription>
                                             </CardHeader>
                                             <CardContent>
                                                 <p className="text-sm text-muted-foreground">
@@ -369,7 +369,7 @@ export default function Portfolio() {
                     <div className="flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row" style={{ marginLeft: "3rem", marginRight: "3rem" }}>
                         <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
                             <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
-                                © 2025 Talha "TJ" Muhammad. All rights reserved.
+                                © 2025 Talha &quot;TJ&quot; Muhammad. All rights reserved.
                             </p>
                         </div>
                         <div className="flex items-center space-x-4">
