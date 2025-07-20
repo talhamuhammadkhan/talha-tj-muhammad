@@ -97,7 +97,7 @@ export default function Portfolio() {
                                     <div className="flex items-start justify-between">
                                         <div>
                                             <CardTitle>Software Engineer Intern</CardTitle>
-                                            <CardDescription className="text-base">AD Solutions • Orland, FL (Remote)</CardDescription>
+                                            <CardDescription className="text-base">AD Solutions • Orlando, FL (Remote)</CardDescription>
                                         </div>
                                         <Badge variant="secondary" className="flex items-center gap-1">
                                             <Calendar className="h-3 w-3" />
