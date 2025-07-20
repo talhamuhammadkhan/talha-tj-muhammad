@@ -180,6 +180,9 @@ export default function Portfolio() {
                                         <strong>Relevant Coursework:</strong> Data Structures & Algorithms, Software Engineering, Database
                                         Systems, Web Development, Machine Learning, Data Analysis, Cloud Computing
                                     </p>
+                                    <p className="text-muted-foreground mb-3">
+                                        <strong>Honors:</strong> 10-Time Dean's List Recipient, Founders Scholarship Recipient
+                                    </p>
                                     <p className="text-muted-foreground">
                                         <strong>Activities:</strong> International Student Organization President, Community Advisor
                                     </p>
@@ -304,6 +307,7 @@ export default function Portfolio() {
                                         Awards & Recognition
                                     </h3>
                                     <div className="space-y-4">
+                                        
                                         <Card>
                                             <CardHeader className="pb-3">
                                                 <CardTitle className="text-lg">Excellence Award</CardTitle>
@@ -326,6 +330,17 @@ export default function Portfolio() {
                                                 </p>
                                             </CardContent>
                                         </Card>
+                                        <Card>
+                                            <CardHeader className="pb-3">
+                                                <CardTitle className="text-lg">Honors Leadership Award</CardTitle>
+                                                <CardDescription>Honors Program, Ferris State University 2025</CardDescription>
+                                            </CardHeader>
+                                            <CardContent>
+                                                <p className="text-sm text-muted-foreground">
+                                                    Received the 2025 Leadership Award from the FSU Honors Program for proven leadership and academic excellence
+                                                </p>
+                                            </CardContent>
+                                        </Card>
                                     </div>
                                 </div>
 
@@ -335,6 +350,17 @@ export default function Portfolio() {
                                         Volunteer Experience
                                     </h3>
                                     <div className="space-y-4">
+                                        <Card>
+                                            <CardHeader className="pb-3">
+                                                <CardTitle className="text-lg">Grand Chair</CardTitle>
+                                                <CardDescription>International Festival of Cultures • 2023 - 2025</CardDescription>
+                                            </CardHeader>
+                                            <CardContent>
+                                                <p className="text-sm text-muted-foreground">
+                                                    Grand Chair of the FSU International Festival committee, organizing international food stalls, performances, and activities
+                                                </p>
+                                            </CardContent>
+                                        </Card>
                                         <Card>
                                             <CardHeader className="pb-3">
                                                 <CardTitle className="text-lg">Coordinator of Volunteers</CardTitle>

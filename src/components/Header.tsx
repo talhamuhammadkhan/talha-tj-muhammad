@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Mail, Github, Linkedin, Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
