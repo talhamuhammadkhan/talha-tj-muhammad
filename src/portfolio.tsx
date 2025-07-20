@@ -181,7 +181,7 @@ export default function Portfolio() {
                                         Systems, Web Development, Machine Learning, Data Analysis, Cloud Computing
                                     </p>
                                     <p className="text-muted-foreground mb-3">
-                                        <strong>Honors:</strong> 10-Time Dean's List Recipient, Founders Scholarship Recipient
+                                        <strong>Honors:</strong> 10-Time Dean&apos;s List Recipient, Founders Scholarship Recipient
                                     </p>
                                     <p className="text-muted-foreground">
                                         <strong>Activities:</strong> International Student Organization President, Community Advisor
