@@ -77,7 +77,7 @@ export default function Header() {
             animate={{ scaleY: 1, opacity: 1 }}
             exit={{ scaleY: 0, opacity: 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="sticky top-14 origin-top md:hidden flex flex-col items-center bg-background border-b py-4 space-y-4"
+            className="fixed top-14 left-0 w-full z-[60] origin-top md:hidden flex flex-col items-center bg-background shadow-md py-4 space-y-4"
           >
             <Link href="#about" onClick={() => setIsOpen(false)}>
               About
