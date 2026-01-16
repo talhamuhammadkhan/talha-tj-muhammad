@@ -14,8 +14,9 @@ export default function TypewriterText() {
             "a Web Developer",
             "a Software Developer",
             "an AI/ML Engineer",
-            "a Front-End Developer",
             "a Back-End Developer",
+            "a Front-End Developer",
+            "an IT Specialist",
             "a Data Scientist",
             "a Data Analyst",
           ]}

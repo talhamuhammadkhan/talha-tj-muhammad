@@ -21,6 +21,7 @@ import Link from "next/link"
 import TypewriterText from "@/components/TypewriterText";
 import Header from "./components/Header"
 import TechBanner from "./components/TechBanner"
+import ExperienceCard from "./components/ExperienceCard"
 
 export default function Portfolio() {
     return (
@@ -92,51 +93,50 @@ export default function Portfolio() {
                             </div>
                         </div>
                         <div className="mx-auto grid max-w-5xl gap-6 py-12">
-                            <Card>
-                                <CardHeader>
-                                    <div className="flex items-start justify-between">
-                                        <div>
-                                            <CardTitle>Software Engineer Intern</CardTitle>
-                                            <CardDescription className="text-base">AD Solutions • Orlando, FL (Remote)</CardDescription>
-                                        </div>
-                                        <Badge variant="secondary" className="flex items-center gap-1">
-                                            <Calendar className="h-3 w-3" />
-                                            2023 - 2024
-                                        </Badge>
-                                    </div>
-                                </CardHeader>
-                                <CardContent>
-                                    <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-                                        <li>Implemented a web portal with financial API integrations, enabling customers of AD Solutions to comprehensively view their dues and usage and pay off invoices efficiently</li>
-                                        <li>Built back-end code in Java to connect a 200-table MSSQL database with customer and billing info to the front-end</li>
-                                        <li>Added security and authorization using JSON web tokens to satisfy security policies</li>
-                                        <li>Built a front-end in TypeScript (React) with a user-friendly, responsive design where users can log in, view their invoices, and pay their bills; worked closely with the User Interfaces/User Experience (UI/UX) team</li>
-                                        <li>Implemented automated report generation and payment functionality through Stripe API calls</li>
-                                    </ul>
-                                </CardContent>
-                            </Card>
+                            <ExperienceCard
+                                title="Software Engineer Consultant"
+                                company="Common Good AI • New York, NY (Remote)"
+                                date="Dec 2025 – Present"
+                                bullets={[
+                                "Built a WhatsApp chatbot in Python to support community consultations across multiple neighborhoods",
+                                "Integrated messaging using Twilio and speech-to-text transcription using the OpenAI Whisper API",
+                                "Conducted data analysis and created visualizations to surface insights for stakeholders",
+                                ]}
+                            />
 
-                            <Card>
-                                <CardHeader>
-                                    <div className="flex items-start justify-between">
-                                        <div>
-                                            <CardTitle>Artificial Intelligence Research Assistant</CardTitle>
-                                            <CardDescription className="text-base">School of Digital Media, Ferris State University</CardDescription>
-                                        </div>
-                                        <Badge variant="secondary" className="flex items-center gap-1">
-                                            <Calendar className="h-3 w-3" />
-                                            2023
-                                        </Badge>
-                                    </div>
-                                </CardHeader>
-                                <CardContent>
-                                    <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-                                        <li>Research assistant at the School of Digital Media&apos;s Software Engineering Program.</li>
-                                        <li>Tested and researched AI novel automation assistant, Sudo Write, generating a story of 12 chapters using the tool</li>
-                                        <li>Built a Python app to test machine learning prompting principles and compiled an evaluation report with 34 detailed examples</li>
-                                    </ul>
-                                </CardContent>
-                            </Card>
+                            <ExperienceCard
+                                title="AI / ML Model Validation Expert (Fellow)"
+                                company="Handshake • San Francisco, CA (Remote)"
+                                date="Nov 2025 – Present"
+                                bullets={[
+                                "Developed high-quality training datasets by filtering, structuring, and labeling data from multiple sources",
+                                "Implemented RLHF-style feedback loops to improve model accuracy, robustness, and alignment with user intent",
+                                ]}
+                            />
+
+                            <ExperienceCard
+                                title="Software Engineer Intern"
+                                company="AD Solutions • Orlando, FL (Remote)"
+                                date="2023 – 2024"
+                                bullets={[
+                                "Implemented a web portal with financial API integrations enabling customers to view usage and pay invoices",
+                                "Built back-end services in Java connecting a 200-table MSSQL database to the front end",
+                                "Added authentication and authorization using JSON Web Tokens",
+                                "Built a responsive front end in TypeScript with close collaboration with UI/UX teams",
+                                "Implemented automated reporting and payment workflows using Stripe APIs",
+                                ]}
+                            />
+
+                            <ExperienceCard
+                                title="Artificial Intelligence Research Assistant"
+                                company="Ferris State University • Grand Rapids, MI"
+                                date="2023"
+                                bullets={[
+                                "Served as a research assistant in the Software Engineering program",
+                                "Tested and evaluated the AI writing assistant Sudowrite by generating a 12-chapter story",
+                                "Built a Python app to test machine learning prompting principles and authored a detailed evaluation report",
+                                ]}
+                            />
                         </div>
                     </div>
                 </section>
