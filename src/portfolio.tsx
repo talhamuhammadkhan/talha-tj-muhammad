@@ -93,14 +93,16 @@ export default function Portfolio() {
                             </div>
                         </div>
                         <div className="mx-auto grid max-w-5xl gap-6 py-12">
+
                             <ExperienceCard
-                                title="Software Engineer Consultant"
-                                company="Common Good AI • New York, NY (Remote)"
-                                date="Dec 2025 – Present"
+                                title="Software Developer"
+                                company="Feinstein Consulting • Franklin, MI (Remote)"
+                                date="Jan 2026 – Present"
                                 bullets={[
-                                "Built a WhatsApp chatbot in Python to support community consultations across multiple neighborhoods",
-                                "Integrated messaging using Twilio and speech-to-text transcription using the OpenAI Whisper API",
-                                "Conducted data analysis and created visualizations to surface insights for stakeholders",
+                                "Migrated a public policy analytics application to the cloud using AWS App Runner, AWS Amplify, and AWS RDS to improve scalability and usability",
+                                "Developed an AI chatbot feature using Python, LangChain, and SQL to enable intelligent database-driven user interactions",
+                                "Developed frontend features using TypeScript and React to enhance usability and design",
+                                "Participated in design reviews and collaborated directly with the client to deliver technical solutions"
                                 ]}
                             />
 
@@ -111,6 +113,39 @@ export default function Portfolio() {
                                 bullets={[
                                 "Developed high-quality training datasets by filtering, structuring, and labeling data from multiple sources",
                                 "Implemented RLHF-style feedback loops to improve model accuracy, robustness, and alignment with user intent",
+                                ]}
+                            />
+
+                            <ExperienceCard
+                                title="Web Development Intern"
+                                company="Chanan Development Association (CDA) • Gainesville, VA (Remote)"
+                                date="Nov 2025 – Present"
+                                bullets={[
+                                "Built the organization’s web portal using Next.js",
+                                "Designed and updated website pages to improve usability and user experience",
+                                "Collaborated with communications staff to implement content and layout updates"
+                                ]}
+                            />
+                                                        
+                            <ExperienceCard
+                                title="CRM Integration Lead"
+                                company="The People • Grand Rapids, MI (Remote)"
+                                date="Jan 2026 – Apr 2026"
+                                bullets={[
+                                "Led CRM software integration for a multi-state civic engagement platform across South Carolina, New Hampshire, and Nevada",
+                                "Automated workflows between Airtable, GoVocal, and Mailchimp using JavaScript",
+                                "Developed dashboards to monitor participation"
+                                ]}
+                            />
+
+                            <ExperienceCard
+                                title="Software Engineer Consultant"
+                                company="Common Good AI • New York, NY (Remote)"
+                                date="Dec 2025 – Feb 2026"
+                                bullets={[
+                                "Built a WhatsApp chatbot in Python to support community consultations across multiple neighborhoods",
+                                "Integrated messaging using Twilio and speech-to-text transcription using the OpenAI Whisper API",
+                                "Conducted data analysis and created visualizations to surface insights for stakeholders",
                                 ]}
                             />
 
