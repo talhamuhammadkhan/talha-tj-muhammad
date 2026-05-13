@@ -99,7 +99,7 @@ export default function Portfolio() {
                                 company="Feinstein Consulting • Franklin, MI (Remote)"
                                 date="Jan 2026 – Present"
                                 bullets={[
-                                "Migrated a public policy analytics application to the cloud using AWS App Runner, AWS Amplify, and AWS RDS to improve scalability and usability",
+                                "Migrated a public policy analytics application to the cloud using AWS App Runner, AWS Amplify, and AWS RDS",
                                 "Developed an AI chatbot feature using Python, LangChain, and SQL to enable intelligent database-driven user interactions",
                                 "Developed frontend features using TypeScript and React to enhance usability and design",
                                 "Participated in design reviews and collaborated directly with the client to deliver technical solutions"
@@ -132,7 +132,7 @@ export default function Portfolio() {
                                 company="The People • Grand Rapids, MI (Remote)"
                                 date="Jan 2026 – Apr 2026"
                                 bullets={[
-                                "Led CRM software integration for a multi-state civic engagement platform across South Carolina, New Hampshire, and Nevada",
+                                "Led CRM software integration for a civic engagement platform across South Carolina, New Hampshire, and Nevada",
                                 "Automated workflows between Airtable, GoVocal, and Mailchimp using JavaScript",
                                 "Developed dashboards to monitor participation"
                                 ]}
