@@ -47,6 +47,7 @@ export default function Portfolio() {
                                     <Link href="mailto:talhamuhammad2003@gmail.com">Get In Touch</Link>
                                 </Button>
                             </div>
+                            {/*
                             <div className="flex flex-wrap justify-center lg:justify-start gap-4 text-sm text-muted-foreground mt-4">
                                 <div className="flex items-center space-x-1">
                                     <MapPin className="h-4 w-4" />
@@ -57,6 +58,7 @@ export default function Portfolio() {
                                     <span>+1 (231) 598-1440</span>
                                 </div>
                             </div>
+                            */}
                         </div>
 
                         {/* Image Section */}
